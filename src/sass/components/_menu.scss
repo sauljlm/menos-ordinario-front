@@ -1,0 +1,22 @@
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.menu__item {
+  border-bottom: 2px solid #fff;
+  padding: 10px 20px 11px;
+  transform: translatey(3px);
+  transition: 0.2s;
+
+  &:hover {
+    border-color: #000;
+    transition: 0.5s;
+  }
+} 
+
+.menu__item--active {
+  border-color: #000;
+}

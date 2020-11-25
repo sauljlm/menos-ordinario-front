@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  font-family: $primary-font;
+}
+
+body {
+  font-family: $secundary-font;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000; 
+}
